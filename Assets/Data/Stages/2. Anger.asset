@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2e7a5d9ab81244aba22f223296c7f5, type: 3}
+  m_Name: 2. Anger
+  m_EditorClassIdentifier: 
+  StagePrefab: {fileID: 7070834977546972443, guid: b66498f9eba2ded41a66bc07b5e79a98, type: 3}
+  Monologues:
+  - name: Death trap
+    storyThreshold: 0
+    Lines:
+    - emotion: 0
+      duration: 2
+      line: That car is a death trap
+      effect: 0
+    - emotion: 3
+      duration: 3
+      line: how many times did I tell her that
+      effect: 1
+    - emotion: 0
+      duration: 2
+      line: 
+      effect: 0
+  - name: Driving
+    storyThreshold: 0.3
+    Lines:
+    - emotion: 3
+      duration: 2
+      line: She never pays attention when driving
+      effect: 0
+    - emotion: 3
+      duration: 2
+      line: this is all her fault
+      effect: 1
+    - emotion: 2
+      duration: 2
+      line: 
+      effect: 0
+  - name: God
+    storyThreshold: 0.7
+    Lines:
+    - emotion: 3
+      duration: 2
+      line: What kind of god would allow this to happen
+      effect: 1
+    - emotion: 3
+      duration: 2
+      line: this is unfair
+      effect: 1
+  - name: Post Game
+    storyThreshold: 1.8
+    Lines:
+    - emotion: 2
+      duration: 4
+      line: I shouldn't be mad at her
+      effect: 0
+    - emotion: 2
+      duration: 3
+      line: it wasn't her fault
+      effect: 0
+  postGameTime: 8
+  colorStyle: {fileID: 11400000, guid: ca940546ef7500a45bcd5f16247b2f32, type: 2}
+  music: {fileID: 8300000, guid: 7813c553566dd7941aa231bb0bc8c0c4, type: 3}

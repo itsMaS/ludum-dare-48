@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2e7a5d9ab81244aba22f223296c7f5, type: 3}
+  m_Name: 5. Acceptance
+  m_EditorClassIdentifier: 
+  StagePrefab: {fileID: 2348023877964482367, guid: c8cf6e7ac672ff04a813648513dc1b86, type: 3}
+  Monologues:
+  - name: Start
+    storyThreshold: 0
+    Lines: []
+  postGameTime: 10
+  colorStyle: {fileID: 11400000, guid: 58b3bb17a3f12af4982dd6b007f2dc84, type: 2}
+  music: {fileID: 8300000, guid: 34e84fcc8fdb05d4eab569e78da3d027, type: 3}

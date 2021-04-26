@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2e7a5d9ab81244aba22f223296c7f5, type: 3}
+  m_Name: 4. Depression
+  m_EditorClassIdentifier: 
+  StagePrefab: {fileID: 4012261758356640082, guid: 88d33e01b5110084ba3f8d5c33df233a, type: 3}
+  Monologues:
+  - name: Starting point
+    storyThreshold: 0
+    Lines:
+    - emotion: 2
+      duration: 3
+      line: I don't know what to do...
+      effect: 0
+    - emotion: 2
+      duration: 3
+      line: She was my whole world
+      effect: 0
+  - name: I don't know if I can go on without her
+    storyThreshold: 0.5
+    Lines:
+    - emotion: 2
+      duration: 5
+      line: I don't know if I can go on without her
+      effect: 0
+  - name: POST GAME
+    storyThreshold: 1.3
+    Lines:
+    - emotion: 2
+      duration: 5
+      line: 
+      effect: 0
+    - emotion: 0
+      duration: 3
+      line: I need to accept that she's gone
+      effect: 0
+    - emotion: 0
+      duration: 4
+      line: and let time heal the wounds
+      effect: 0
+  - name: POST GAME
+    storyThreshold: 2.5
+    Lines:
+    - emotion: 0
+      duration: 8
+      line: 
+      effect: 0
+    - emotion: 1
+      duration: 3
+      line: I'll cherish the memories we had
+      effect: 0
+    - emotion: 0
+      duration: 2
+      line: 
+      effect: 0
+  postGameTime: 3
+  colorStyle: {fileID: 11400000, guid: 701ef8ac4ab0385439175b51a9f5b112, type: 2}
+  music: {fileID: 8300000, guid: 475654bb6161c074a9f5d91bde2c7c5c, type: 3}

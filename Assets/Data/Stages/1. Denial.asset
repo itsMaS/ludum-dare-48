@@ -1,0 +1,123 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2e7a5d9ab81244aba22f223296c7f5, type: 3}
+  m_Name: 1. Denial
+  m_EditorClassIdentifier: 
+  StagePrefab: {fileID: 4785802087124658222, guid: 99d1782436067e54f8bf35a2623df1b0, type: 3}
+  Monologues:
+  - name: Introduction
+    storyThreshold: 0.05
+    Lines:
+    - emotion: 0
+      duration: 2
+      line: Hi
+      effect: 0
+    - emotion: 0
+      duration: 1.5
+      line: Nice to meet you
+      effect: 0
+  - name: Everything is fine
+    storyThreshold: 0.2
+    Lines:
+    - emotion: 1
+      duration: 2
+      line: Everything's fine
+      effect: 0
+    - emotion: 0
+      duration: 1.5
+      line: why wouldn't it be?
+      effect: 0
+  - name: Nightmare
+    storyThreshold: 0.4
+    Lines:
+    - emotion: 1
+      duration: 2
+      line: Just a nightmare...
+      effect: 0
+    - emotion: 0
+      duration: 4
+      line: A figment of my imagination
+      effect: 0
+  - name: She's ok [shaky]
+    storyThreshold: 0.6
+    Lines:
+    - emotion: 2
+      duration: 2
+      line: She's OK
+      effect: 1
+    - emotion: 2
+      duration: 2
+      line: This will all be over soon
+      effect: 0
+    - emotion: 0
+      duration: 1.5
+      line: 
+      effect: 0
+  - name: Wrong person
+    storyThreshold: 0.8
+    Lines:
+    - emotion: 2
+      duration: 2
+      line: They got the wrong person
+      effect: 0
+    - emotion: 2
+      duration: 4
+      line: She's just late from work
+      effect: 0
+    - emotion: 0
+      duration: 2
+      line: 
+      effect: 0
+  - name: POST game
+    storyThreshold: 1.1
+    Lines:
+    - emotion: 2
+      duration: 2
+      line: 
+      effect: 0
+    - emotion: 2
+      duration: 1.5
+      line: I have to face this...
+      effect: 0
+  - name: Facing death
+    storyThreshold: 1.4
+    Lines:
+    - emotion: 2
+      duration: 2
+      line: What if...
+      effect: 0
+    - emotion: 2
+      duration: 2
+      line: What if it really happened...
+      effect: 0
+    - emotion: 2
+      duration: 4
+      line: What if she's gone...
+      effect: 0
+  - name: Entering red zone
+    storyThreshold: 2
+    Lines:
+    - emotion: 3
+      duration: 1
+      line: 
+      effect: 0
+    - emotion: 3
+      duration: 4
+      line: I TOLD HER IT WASN'T SAFE
+      effect: 1
+    - emotion: 0
+      duration: 0
+      line: 
+      effect: 0
+  postGameTime: 10
+  colorStyle: {fileID: 11400000, guid: b4b99fc0e388c464ba045904180e6dac, type: 2}
+  music: {fileID: 8300000, guid: 7e6298e2fa964c2478a322888b7cb129, type: 3}

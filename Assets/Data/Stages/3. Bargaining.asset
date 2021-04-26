@@ -1,0 +1,48 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac2e7a5d9ab81244aba22f223296c7f5, type: 3}
+  m_Name: 3. Bargaining
+  m_EditorClassIdentifier: 
+  StagePrefab: {fileID: 2932779881360149485, guid: d6c28275e3edf0641a76319b3c28f09c, type: 3}
+  Monologues:
+  - name: Driving [Start]
+    storyThreshold: 0
+    Lines:
+    - emotion: 0
+      duration: 6
+      line: I should've been the one driving her home that day
+      effect: 0
+  - name: late nights
+    storyThreshold: 0.5
+    Lines:
+    - emotion: 0
+      duration: 4
+      line: We should have went on that vacation...
+      effect: 0
+    - emotion: 2
+      duration: 4
+      line: Then none of this would've happened
+      effect: 0
+  - name: Post game
+    storyThreshold: 1.2
+    Lines:
+    - emotion: 0
+      duration: 4
+      line: This is hopeless...
+      effect: 0
+    - emotion: 2
+      duration: 4
+      line: There's nothing I can do now...
+      effect: 0
+  postGameTime: 5
+  colorStyle: {fileID: 11400000, guid: 66c4232a9058c5b4ba579c02bc587bcc, type: 2}
+  music: {fileID: 8300000, guid: 90df341c27931a14d8fefdc541322055, type: 3}
